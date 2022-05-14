@@ -1,11 +1,6 @@
-<<<<<<< HEAD
 ß// ! Destructuring import syntax!
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import React from 'react'
-=======
-// ß// ! Destructuring import syntax!
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
->>>>>>> 0e8228a025b5f924e5ed86594ea8164a6eceba72
 
 // import Home from "./components/Home"
 // import Characters from "./components/Characters"
