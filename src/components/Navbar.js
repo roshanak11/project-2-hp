@@ -1,8 +1,7 @@
-// // ? Import Link component
-// import { Link } from "react-router-dom"
-// import React from "react"
+// ? Import Link component
+import React from "react"
+import { Link } from "react-router-dom"
 
-<<<<<<< HEAD
 // ! The one difference in this navigation, are the Link components.
 function Navbar() {
   return (
@@ -14,15 +13,15 @@ function Navbar() {
               <Link to="/" className="navbar-item">
                 Home
               </Link>
-              <Link to="/characters" className="navbar-item">
+              {/* <Link to="/characters" className="navbar-item">
                 Characters
-              </Link>
-              <Link to="/characters/:showCharacter" className="navbar-item">
-                Show Characters //**UseParam*/
-              </Link>
-              <Link to="/favorites" className="navbar-item">
+              </Link> */}
+              {/* <Link to="/characters/:showcharacters" className="navbar-item">
+                Show Characters
+              </Link> */}
+              {/* <Link to="/favorites" className="navbar-item">
                 Favourites
-              </Link>
+              </Link> */}
             </div>
           </div>
         </nav>
@@ -30,34 +29,5 @@ function Navbar() {
     </>
   )
 }
-=======
-// // ! The one difference in this navigation, are the Link components.
-// function Navbar() {
-//   return (
-//     <>
-//       <header>
-//         <nav className="navbar is-dark">
-//           <div className="container">
-//             <div className="navbar-brand">
-//               <Link to="/" className="navbar-item">
-//                 Home
-//               </Link>
-//               <Link to="/characters" className="navbar-item">
-//                 Characters
-//               </Link>
-//               <Link to="/characters/:showcharacters" className="navbar-item">
-//                 Show Characters //**UseParam*/
-//               </Link>
-//               <Link to="/favorites" className="navbar-item">
-//                 Favourites
-//               </Link>
-//             </div>
-//           </div>
-//         </nav>
-//       </header>
-//     </>
-//   )
-// }
->>>>>>> 0e8228a025b5f924e5ed86594ea8164a6eceba72
 
-// export default Navbar
+export default Navbar
