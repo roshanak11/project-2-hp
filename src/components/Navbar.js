@@ -16,7 +16,7 @@ function Navbar() {
               <Link to="/characters" className="navbar-item">
                 Characters
               </Link>
-              <Link to="/characters/:showcharacters" className="navbar-item">
+              <Link to="/characters/:showCharacter" className="navbar-item">
                 Show Characters //**UseParam*/
               </Link>
               <Link to="/favorites" className="navbar-item">

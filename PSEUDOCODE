@@ -1,0 +1,9 @@
+PSEUDOCODE 
+
+NAVBAR.JS {
+  import react-router-dom
+  import { Link } from React-router-Dom
+  <div>
+    <Link>Home</Link>
+  </div>
+}

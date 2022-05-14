@@ -1,5 +1,6 @@
 ß// ! Destructuring import syntax!
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import React from 'react'
 
 import Home from "./components/Home"
 import Characters from "./components/Characters"
