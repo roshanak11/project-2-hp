@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 import Home from "./components/Home"
 import Characters from "./components/Characters"
-import ShowCharacters from "./components/ShowCharacters"
+import ShowCharacters from "./components/ShowCharacter"
 import Favorites from "./components/Favorites"
 import Navbar from "./components/Navbar"
 
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/characters" element={<Characters />} />
-        <Route path="/characters/:showcharacters" element={<ShowCharacters />} />
+        <Route path="/characters/:showcharacter" element={<SingleCharacter />} />
         <Route path="/favorites" element={<Favorites />} />
       </Routes>
     </Router>
