@@ -15,11 +15,11 @@ function Navbar() {
               </Link>
               {/* <Link to="/characters" className="navbar-item">
                 Characters
-              </Link>
-              <Link to="/characters/:showCharacter" className="navbar-item">
-                Show Characters 
-              </Link>
-              <Link to="/favorites" className="navbar-item">
+              </Link> */}
+              {/* <Link to="/characters/:showcharacters" className="navbar-item">
+                Show Characters
+              </Link> */}
+              {/* <Link to="/favorites" className="navbar-item">
                 Favourites
               </Link> */}
             </div>
@@ -30,4 +30,4 @@ function Navbar() {
   )
 }
 
-// export default Navbar
+export default Navbar
