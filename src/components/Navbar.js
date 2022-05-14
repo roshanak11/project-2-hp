@@ -13,12 +13,12 @@ function Navbar() {
               <Link to="/" className="navbar-item">
                 Home
               </Link>
-              {/* <Link to="/characters" className="navbar-item">
+              <Link to="/characters" className="navbar-item">
                 Characters
-              </Link> */}
-              {/* <Link to="/characters/:showcharacters" className="navbar-item">
+              </Link>
+              <Link to="/characters/:showcharacters" className="navbar-item">
                 Show Characters
-              </Link> */}
+              </Link>
               {/* <Link to="/favorites" className="navbar-item">
                 Favourites
               </Link> */}

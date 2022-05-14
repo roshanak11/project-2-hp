@@ -22,3 +22,20 @@
 // }
 
 // export default SingleCharacter
+
+
+import React from "react"
+
+function SingleCharacter(){
+  return (
+    <>
+      <div className='hero is-medium is-primary is-bold' >
+
+        <h1 className='title'>Show Character</h1>
+     
+      </div>
+    </>
+  )
+}
+
+export default SingleCharacter

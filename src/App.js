@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import React from 'react'
 
 import Home from "./components/Home"
-// import Characters from "./components/Characters"
-// import ShowCharacters from "./components/ShowCharacter"
+import Characters from "./components/Characters"
+import SingleCharacter from "./components/ShowCharacter"
 // import Favorites from "./components/Favorites"
 import Navbar from "./components/Navbar"
 
@@ -19,9 +19,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/characters" element={<Characters />} />
+        <Route path="/characters" element={<Characters />} />
         <Route path="/characters/:showcharacter" element={<SingleCharacter />} />
-        <Route path="/favorites" element={<Favorites />} /> */}
+        {/* <Route path="/favorites" element={<Favorites />} /> */}
       </Routes>
     </Router>
   )

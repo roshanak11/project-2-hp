@@ -34,3 +34,20 @@
 
 
 // export default App
+
+
+import React from "react"
+
+function Characters(){
+  return (
+    <>
+      <div className='hero is-medium is-primary is-bold' >
+
+        <h1 className='title'>Characters</h1>
+     
+      </div>
+    </>
+  )
+}
+
+export default Characters
