@@ -21,4 +21,4 @@ function SingleCharacter() {
   )
 }
 
-export default SingleProduct
+export default SingleCharacter
