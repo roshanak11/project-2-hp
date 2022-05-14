@@ -1,6 +1,6 @@
 // // ? Import Link component
-// import { Link } from "react-router-dom"
-// import React from "react"
+import { Link } from "react-router-dom"
+import React from "react"
 
 // ! The one difference in this navigation, are the Link components.
 function Navbar() {

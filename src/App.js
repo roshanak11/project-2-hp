@@ -14,17 +14,17 @@ import React from 'react'
 //   // ! 3) You create all the actual Route components.
 //   // ! Those need 2 things: URL path, and the actual component to render.
 
-//   return (
-//     <Router>
-//       <Navbar />
-//       <Routes>
-//         <Route path="/" element={<Home />} />
-//         <Route path="/characters" element={<Characters />} />
-//         <Route path="/characters/:showcharacter" element={<SingleCharacter />} />
-//         <Route path="/favorites" element={<Favorites />} />
-//       </Routes>
-//     </Router>
-//   )
-// }
+  return (
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/characters" element={<Characters />} />
+        <Route path="/characters/:showcharacter" element={<SingleCharacter />} />
+        <Route path="/favorites" element={<Favorites />} /> */}
+      </Routes>
+    </Router>
+  )
+}
 
-// export default App
+export default App
