@@ -27,6 +27,7 @@ function Characters(){
       return <Char
         key={character.name}
         name={character.name}
+        image={character.image}
       /> // you need && everytime you run API. only do the stuff after && if it exists and is true, otherwise you'll get undefined
     })}
   </div>
