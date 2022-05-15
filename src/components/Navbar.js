@@ -17,7 +17,7 @@ function Navbar() {
                 Characters
               </Link>
               <Link to="/characters/:showcharacters" className="navbar-item">
-                Show Characters
+                Show Character
               </Link>
               {/* <Link to="/favorites" className="navbar-item">
                 Favourites
