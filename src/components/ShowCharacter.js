@@ -5,18 +5,12 @@ import CharacterCard from "./CharacterCard"
 function ShowCharacter() {
   const location = useLocation() //this is going to fetch everything from characterCard.js
   console.log(location)
-
-  // const { characterName } = useParams()
-  const [character, setCharacter] = React.useState(undefined)
-
-
-  if (!character) {
-    return <p>Character Loading...</p>
-  }
-
+  const character = location.state.character
   return <section className="section">
     <div className="container">
       <h1>Hello Character Name!</h1>
+      <h2>{character.name}</h2>
+      <h3>{character.species}</h3>
       <Link to="/characters">{"⬅ Back to all characters"}</Link>
       <CharacterCard {...CharacterCard} />
     </div>
