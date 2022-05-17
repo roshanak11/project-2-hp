@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 
-function Country({ name: { common }, region, flags: { png } }) {
+function CharacterCard({ character }) {
   return <div className="column is-one-quarter-desktop is-one-third-tablet">
     {/* <Link to={`/country/${common}`}> */}
     {/* // ! How to pass through more information about country, if needed.. */}
@@ -23,4 +23,4 @@ function Country({ name: { common }, region, flags: { png } }) {
   </div>
 }
 
-export default Country
+export default CharacterCard
