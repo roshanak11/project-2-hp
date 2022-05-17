@@ -1,27 +1,37 @@
-// import { useParams } from 'react-router-dom'
 // import React from "react"
+// import { Link, useParams, useLocation } from "react-router-dom"
+// import Country from "./Country"
 
-// function SingleCharacter() {
-//   // ! useParams() is a function that we're calling.
-//   // ! const { productName } must MATCH the variable in the path for this route.
-//   const { showCharacter } = useParams()
+// function ShowCountry() {
+//   const location = useLocation()
+//   console.log(location)
+
+//   const { countryName } = useParams()
+//   const [country, setCountry] = React.useState(undefined)
 
 //   React.useEffect(() => {
-//     console.log("An individual character page has mounted")
-//   }, [])
+//     async function fetchCountry() {
+//       const resp = await fetch(`https://restcountries.com/v3.1/name/${countryName}`)
+//       const countryData = await resp.json()
+//       setCountry(countryData[0])
+//     }
+//     fetchCountry()
+//   }, [countryName])
 
-//   return (
-//     <section className="hero is-info is-fullheight-with-navbar">
-//       <div className="hero-body has-text-centered">
-//         <div className="container">
-//           <p className="title">{showCharacter}</p>
-//         </div>
-//       </div>
-//     </section>
-//   )
+//   if (!country) {
+//     return <p>Country Loading...</p>
+//   }
+
+//   return <section className="section">
+//     <div className="container">
+//       <h1>Hello Country Name!</h1>
+//       <Link to="/countries">{"⬅ Back to all countries"}</Link>
+//       <Country {...country} />
+//     </div>
+//   </section>
 // }
 
-// export default SingleCharacter
+// export default ShowCountry
 
 
 import React from "react"
@@ -32,7 +42,6 @@ function SingleCharacter(){
       <div className='hero is-medium is-primary is-bold' >
 
         <h1 className='title'>Show Character</h1>
-     
       </div>
     </>
   )
