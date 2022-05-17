@@ -19,9 +19,9 @@ function Navbar() {
               <Link to="/characters/:showcharacters" className="navbar-item">
                 Show Character
               </Link>
-              {/* <Link to="/favorites" className="navbar-item">
-                Favourites
-              </Link> */}
+              <Link to="/favorites" className="navbar-item">
+                Favourite Character
+              </Link>
             </div>
           </div>
         </nav>
