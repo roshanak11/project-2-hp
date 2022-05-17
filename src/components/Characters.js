@@ -34,7 +34,7 @@
 
 
 import React from "react"
-import Char from "./Char"
+import CharacterCard from "./CharacterCard"
 
 function Characters(){
 
@@ -59,10 +59,9 @@ function Characters(){
         <h1 className='title'>Characters</h1>
         <div className="container">
     {potterCharacter && potterCharacter.map(character => {
-      return <Char
+      return <CharacterCard
         key={character.name}
-        name={character.name}
-        image={character.image}
+        characterName={character.name}
         character={character} // passes whole character
       /> // you need && everytime you run API. only do the stuff after && if it exists and is true, otherwise you'll get undefined
     })}
