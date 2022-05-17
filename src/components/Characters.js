@@ -38,14 +38,14 @@ import CharacterCard from "./CharacterCard"
 
 function Characters(){
 
-  const [potterCharacter, setCharacter] = React.useState(undefined)
+  const [potterCharacter, setPotterCharacter] = React.useState(undefined)
 
   React.useEffect(() => {
     async function fetchCharacter() {
       const resp = await fetch("http://hp-api.herokuapp.com/api/characters/")
       const data = await resp.json()
       console.log(data)
-      setCharacter(data)
+      setPotterCharacter(data)
     }
     fetchCharacter()
   }, [])
