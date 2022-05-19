@@ -11,16 +11,16 @@ function ShowCharacter() {
       <h1>{character.name}</h1>
       <h2>
        {character.image && <p><img src={character.image}></img></p>}
-       {character.species && <p>Species: {character.species}</p>}
-       {character.gender && <p>Gender: {character.gender}</p>}
-       {character.ancestry && <p>Ancestry: {character.ancestry}</p>}
-       {character.ancestry && <p>Ancestry: {character.ancestry}</p>}
-       {character.patronus && <p>Patronus: {character.patronus}</p>}
-       {character.wand.core && <p>Wand Core: {character.wand.core}</p>} 
+       {character.species && <p><strong>Species:</strong> {character.species}</p>}
+       {character.gender && <p><strong>Gender:</strong> {character.gender}</p>}
+       {character.ancestry && <p><strong>Ancestry:</strong> {character.ancestry}</p>}
+       {character.ancestry && <p><strong>Ancestry:</strong> {character.ancestry}</p>}
+       {character.patronus && <p><strong>Patronus:</strong> {character.patronus}</p>}
+       {character.wand.core && <p><strong>Wand Core:</strong> {character.wand.core}</p>} 
       </h2>
       </div>
       <Link to="/characters">{"⬅ Back to all characters"}</Link>
-      <CharacterCard {...CharacterCard} />
+      {/* <CharacterCard {...CharacterCard} /> */}
     </div>
   </section>
 }

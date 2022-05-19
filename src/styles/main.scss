@@ -113,7 +113,13 @@ border-color: #740001;
 
 //Show Character Page
 #card {
-  border-radius: 5px;
+  border: 2px dashed #946b2d;
+  border-radius: 25px;
   border-style: dashed;
-  border: #946b2d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  color: #946b2d;
 }
