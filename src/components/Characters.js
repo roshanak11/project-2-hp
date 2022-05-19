@@ -54,7 +54,8 @@ function Characters(){
 
   return (
     <>
-      <div>
+      <div className="container">
+        <h1 className="title">Characters</h1>
         <div className="columns is-multiline">       
           {potterCharacter && potterCharacter.map(character => {
           return <CharacterCard
