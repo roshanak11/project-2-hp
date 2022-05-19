@@ -74,16 +74,15 @@ border-color: #740001;
         background-color: #f0c75e;
       }
 
-//Home
+//Home Page
 #homepage-background {
-    background: url("../images/Home2.jpeg");
+    background: url("../images/Home.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.5;
 }
 
 #homepage {
-  color: white;
   height: 100vh;
   width: 100vw;
 }
@@ -109,4 +108,12 @@ border-color: #740001;
   padding: 0px;
   margin: 50px 0px;
   opacity: 0.9;
+}
+
+
+//Show Character Page
+#card {
+  border-radius: 5px;
+  border-style: dashed;
+  border: #946b2d;
 }
