@@ -2,10 +2,12 @@ nav {
   background-color: #1a472a;
 }
 
-
-.card-header-title {
-  background-color: white;
+.container {
+  flex: display;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
+
 
 
 $yellow: #fbcb46;
