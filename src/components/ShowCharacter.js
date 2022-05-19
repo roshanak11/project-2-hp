@@ -4,7 +4,6 @@ import CharacterCard from "./CharacterCard"
 
 function ShowCharacter() {
   const location = useLocation() //this is going to fetch everything from characterCard.js
-  console.log(location)
   const character = location.state.character
   return <section className="section">
     <div className="container">
