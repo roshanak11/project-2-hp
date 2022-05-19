@@ -54,18 +54,17 @@ function Characters(){
 
   return (
     <>
-      <div className='hero is-medium is-primary is-bold' >
-
-        <h1 className='title'>Characters</h1>
-        <div className="container">
-    {potterCharacter && potterCharacter.map(character => {
-      return <CharacterCard
-        key={character.name}
-        characterName={character.name}
-        character={character} // passes whole character
+      <div className="container">
+        <h1 className="title">Characters</h1>
+        <div className="columns is-multiline">       
+          {potterCharacter && potterCharacter.map(character => {
+          return <CharacterCard
+            key={character.name}
+            characterName={character.name}
+            character={character} // passes whole character
       /> // you need && everytime you run API. only do the stuff after && if it exists and is true, otherwise you'll get undefined
     })}
-  </div>
+        </div>
       </div>
     </>
   )
