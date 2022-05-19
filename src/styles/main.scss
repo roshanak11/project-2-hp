@@ -19,6 +19,51 @@ $box-padding: 1rem;
   url("//db.onlinewebfonts.com/t/0421d4186d6efbfc5331fe180895e780.svg#Harry Potter") format("svg");
 }
 
+//Navbar
+h1 {
+  font-family: "Harry Potter";
+  padding: 10px 20px;
+  font-size: 25pt;
+}
+
+//Navbar tab colors + hover effects in all 4 Harry Potter house colors
+#home {
+background-color: #740001;
+border-color: #740001;
+}
+
+#home:hover {
+  background-color: #ae0001;
+}
+
+#characters {
+  background-color: #1a472a;
+  border-color: #1a472a;
+  }
+  
+#characters:hover {
+    background-color: #2a623d;
+  }
+
+  #showcharacter {
+    background-color: #0e1a40;
+    border-color: #0e1a40;
+    }
+    
+  #showcharacter:hover {
+      background-color: #222f5b;
+    }
+  
+  #favouritecharacter {
+      background-color: #ecb939;
+      border-color: #ecb939;
+      }
+      
+  #favouritecharacter:hover {
+        background-color: #f0c75e;
+      }
+
 // navbar reference: https://codepen.io/Jill-Lambert/pen/bwevpB
 // background: #946b2d
-// tabs: #740001 hover: #ae0001, #1a472a hover: #2a623d, #0e1a40: #222f5b, #ecb939 hover: #f0c75e
+// #0e1a40: #222f5b, #ecb939 hover: #f0c75e
+//do home and and index.html fonts, modify class-names
