@@ -51,25 +51,57 @@ border-color: #740001;
     background-color: #2a623d;
   }
 
-  #showcharacter {
+#showcharacter {
     background-color: #0e1a40;
     border-color: #0e1a40;
     }
     
-  #showcharacter:hover {
+#showcharacter:hover {
       background-color: #222f5b;
     }
-  
-  #favouritecharacter {
+
+#favouritecharacter {
       background-color: #ecb939;
       border-color: #ecb939;
       }
       
-  #favouritecharacter:hover {
+#favouritecharacter:hover {
         background-color: #f0c75e;
       }
 
-// navbar reference: https://codepen.io/Jill-Lambert/pen/bwevpB
-// background: #946b2d
-// #0e1a40: #222f5b, #ecb939 hover: #f0c75e
-//do home and and index.html fonts, modify class-names
+//Home
+#homepage-background {
+    background: url("../images/Home2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#homepage {
+  color: white;
+  height: 100vh;
+  width: 100vw;
+}
+
+#title, #subtitle {
+  font-size: 80px;
+  text-shadow: 5px 5px 5px #363636;
+  color: white;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+#subtitle {
+  background-color: white;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #946b2d;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  text-shadow: none;
+  padding: 0px;
+  margin: 50px 0px;
+  opacity: 0.9;
+}
