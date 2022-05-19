@@ -11,16 +11,16 @@ function Navbar() {
           <div className="container">
             <div className="navbar-brand">
               <Link to="/" className="navbar-item">
-                Home
+                <h1 id="home">Home</h1>
               </Link>
               <Link to="/characters" className="navbar-item">
-                Characters
+              <h1 id="characters">Characters</h1>
               </Link>
               <Link to="/characters/:showcharacters" className="navbar-item">
-                Show Character
+              <h1 id="showcharacter">Show Character</h1>
               </Link>
-              <Link to="/favorites" className="navbar-item">
-                Favourite Character
+              <Link to="/favourites" className="navbar-item">
+              <h1 id="favouritecharacter">Favourite Character</h1>
               </Link>
             </div>
           </div>
