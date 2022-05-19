@@ -19,7 +19,7 @@ function ShowCharacter() {
        {character.wand.core && <p><strong>Wand Core:</strong> {character.wand.core}</p>} 
       </h2>
       </div>
-      <Link to="/characters">{"⬅ Back to all characters"}</Link>
+      <p id="back"><Link to="/characters">{"⬅ Back to all characters"}</Link></p>
       {/* <CharacterCard {...CharacterCard} /> */}
     </div>
   </section>
