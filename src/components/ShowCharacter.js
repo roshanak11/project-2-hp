@@ -1,6 +1,5 @@
 import React from "react"
-import { Link, useParams, useLocation } from "react-router-dom"
-import CharacterCard from "./CharacterCard"
+import { Link, useLocation } from "react-router-dom"
 
 function ShowCharacter() {
   const location = useLocation() //this is going to fetch everything from characterCard.js
@@ -10,7 +9,7 @@ function ShowCharacter() {
       <div id="card">
       <h1>{character.name}</h1>
       <h2>
-       {character.image && <p><img src={character.image}></img></p>}
+       {character.image && <p><img src={character.image} alt="character"></img></p>}
        {character.species && <p><strong>Species:</strong> {character.species}</p>}
        {character.gender && <p><strong>Gender:</strong> {character.gender}</p>}
        {character.ancestry && <p><strong>Ancestry:</strong> {character.ancestry}</p>}
@@ -20,7 +19,6 @@ function ShowCharacter() {
       </h2>
       </div>
       <p id="back"><Link to="/characters">{"⬅ Back to all characters"}</Link></p>
-      {/* <CharacterCard {...CharacterCard} /> */}
     </div>
   </section>
 }
