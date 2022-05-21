@@ -1,0 +1,1 @@
+// We didn't have time for this. We wanted to use LocalStorage to create a Like button on each ShowCharacter page so that the user could like all their favorite characters, and the list of favorite characters would appear in the Favourite Characters component.
