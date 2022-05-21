@@ -20,7 +20,6 @@ function ShowCharacter() {
        {character.species && <p><strong>Species:</strong> {character.species}</p>}
        {character.gender && <p><strong>Gender:</strong> {character.gender}</p>}
        {character.ancestry && <p><strong>Ancestry:</strong> {character.ancestry}</p>}
-       {character.ancestry && <p><strong>Ancestry:</strong> {character.ancestry}</p>}
        {character.patronus && <p><strong>Patronus:</strong> {character.patronus}</p>}
        {character.wand.core && <p><strong>Wand Core:</strong> {character.wand.core}</p>} 
       </h2>
