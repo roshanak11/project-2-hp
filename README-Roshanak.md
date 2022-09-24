@@ -66,6 +66,8 @@ In the code above, I used CSS to style each page with a heading of the character
 This is also the CSS I created for the show character component. I used flexbox to organize my div with the ID “card”. I also gave it a dashed border to make the page look fun. Furthermore, I stuck to the #946b2d shade for the div and text to stay aligned with the Harry Potter theme:
 # ![](https://res.cloudinary.com/dgicm5dgb/image/upload/v1663975958/project%202%20readme/F0A9E32D-2FB1-484C-B754-6048F5F50105_wd3w8i.jpg)
 
+The app also uses mobile-first design through the use of Bulma CSS:
+# ![](https://res.cloudinary.com/dgicm5dgb/image/upload/v1664028007/mobile-first-design%20readmes/BDC71027-423D-48D4-B173-7E2F180D4AC2_h5694c.jpg)
 
 ## Screenshots
 **Project Pitch Deck**
