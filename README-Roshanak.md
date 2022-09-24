@@ -108,9 +108,9 @@ We changed it to:
 "&&" suggests If character traits are undefined, it will not display the traits. However, if the character traits are given in the API, they will be displayed for that given character (as opposed to providing blank fields with missing information like it was originally). 
 - useLocation was used to connect the navbar, app, show character, and character card components together because useLocation allows you to move information through different components. We did this by creating a state (which had all of the character’s information) and through that state, we used useLocation to fetch that information and use it in our desired component. This allowed us to create a show character component which contained all of the information of that character without needing to fetch the API.
 - I ensured the fonts, colors, navbar, and images were all aligned with the Harry Potter theme. Each navbar tab is one of four Harry Potter house colors and when the user hovers over the navbar links, it turns the tabs into a different shade of the original color to add a visually pleasing hover effect.
+- The app also uses mobile-first design through the use of Bulma CSS.
 
 ## Future Features
-- Add media queries to make it responsive to different browsers/mobiles/tablets
 - Implement useStorage to create a “like” button that allows users to add characters to their Favorites List (we left the Favorites tab incomplete due to time constraints)
 - Implement Harry Potter theme music in the background
 - Sort characters by Hogwarts house so users can click on each house name
