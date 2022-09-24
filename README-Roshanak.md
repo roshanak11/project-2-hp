@@ -64,7 +64,7 @@ I also took responsibility for creating the design for the show character compon
 In the code above, I used CSS to style each page with a heading of the character’s name in classic Harry Potter font. Furthermore, our API was missing information for several characters but showed the same information for other characters. I did not want users to see blank fields under the character traits that were missing from the API and I had to figure out a way to write DRY code that could be applicable to each and every individual character in a few lines. I resolved this issue by using the && method. "&&" suggested if character traits were undefined, the traits would not be displayed. However, if character traits were given in the API, they would be displayed for that given character.
 
 This is also the CSS I created for the show character component. I used flexbox to organize my div with the ID “card”. I also gave it a dashed border to make the page look fun. Furthermore, I stuck to the #946b2d shade for the div and text to stay aligned with the Harry Potter theme:
-# ![](https://res.cloudinary.com/dgicm5dgb/image/upload/v1663975958/project%202%20readme/F0A9E32D-2FB1-484C-B754-6048F5F50105_wd3w8i.jpgg)
+# ![](https://res.cloudinary.com/dgicm5dgb/image/upload/v1663975958/project%202%20readme/F0A9E32D-2FB1-484C-B754-6048F5F50105_wd3w8i.jpg)
 
 
 ## Screenshots
